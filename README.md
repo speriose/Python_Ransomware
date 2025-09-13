@@ -23,13 +23,6 @@ The repository contains two safe paths:
 
 This section is for researchers who want to publish observations while avoiding enabling misuse.
 
-### Content to include
-- **High-level behavior summary** (what the sample tried to do, e.g., "enumerated files and wrote encrypted copies").  
-- **Observed artifacts** (sanitized file names, registry keys, network indicators — remove IPs/domain names).  
-- **Static analysis notes** (imports used, notable strings — redact anything enabling reproduction).  
-- **Dynamic analysis notes** (processes spawned, file and registry changes, network patterns) — only publish sanitized logs or excerpts.  
-- **Detections and mitigations** (YARA/Sigma rules in defensive form, EDR configurations, network alerts to look for).
-
 ### Safety rules for publication
 - Do **not** include full runnable code from malicious samples.  
 - Redact or sanitize IPs, domains, credentials, and any payloads.  
